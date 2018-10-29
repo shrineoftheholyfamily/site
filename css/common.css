@@ -1,0 +1,142 @@
+body {
+	font-family: 'Crimson Text', serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #fefced;
+}
+a.logo-hover:hover {
+	color: #fefced;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+.font-basic {
+	color: #D5D5D5;
+}
+
+.font-flame-center {
+	color: #FFFFFF;
+}
+.font-flame-border-1 {
+	color: #fefced;
+}
+.font-flame-border-2 {
+	color: #fcd99f;
+}
+.font-flame-border-3 {
+	color: #fda661;
+}
+
+.font-flame-border-4 {
+	color: #e28349;
+}
+.font-flame-border-5 {
+	color: #935429;
+}
+
+.font-text-dark {
+	color: #1a0b04;
+}
+
+.bkg-color-1 {
+	background-color: #1a0b04;
+}
+
+.bkg-color-2 {
+	background-color: #120703;
+}
+
+.candle-background {
+	background-image: url("../images/candles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
